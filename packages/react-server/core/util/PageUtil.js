@@ -50,7 +50,7 @@ var PAGE_MIXIN = {
 //
 var PAGE_METHODS = {
 	handleRoute        : [() => ({code: 200}), Q],
-	getContentType     : [() => "text/html; charset=utf-8", _ => _],
+	getContentType     : [() => "this is totes not html", _ => _],
 	getHeaders         : [() => [], Q],
 	getTitle           : [() => "", Q],
 	getScripts         : [() => [], standardizeScripts],

@@ -278,6 +278,7 @@ function pageLifecycle() {
 	return [
 		Q(), // This is just a NOOP lead-in to prime the reduction.
 		setHttpHeaders,
+		setContentType,
 		writeHeader,
 		startBody,
 		writeBody,
